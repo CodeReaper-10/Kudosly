@@ -8,7 +8,8 @@ import { Reward } from 'src/app/models/reward';
   styleUrls: ['./rewards-catalog.component.css']
 })
 export class RewardsCatalogComponent implements OnInit {
-  rewards!: Reward[];
+  rewards: Reward[]=[];
+  totalPoints: number = 2000;
 
   constructor(private rewardsService: RewardsService) { }
 
@@ -16,4 +17,15 @@ export class RewardsCatalogComponent implements OnInit {
     this.rewards = this.rewardsService.getRewards();
   }
 
+  redeem(reward: Reward){
+    if (reward.points > this.totalPoints) {
+      alert("You don't have enough points to redeem this reward.");
+      return;
+    }
+
+    this.totalPoints -= reward.points;
+    reward.redeemed = true;
+    alert("Reward redeemed successfully!");
+    console.log(`Redeeming reward: ${reward.name}, ${reward.points} points`);
+  }
 }
