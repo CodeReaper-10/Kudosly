@@ -1,94 +1,41 @@
-/* signup.component.css */
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500;600&family=Raleway:wght@300;400;500&display=swap');
 
-/* .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
+  .login_page_main {
+    background: linear-gradient(to top right, #21466b, #59738f);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
   }
   
   .card {
-    width: 30rem;
-    padding: 2rem;
-    border-radius: 0.25rem;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    background-color: var(--secondary-light) !important;
   }
   
-  .card-header {
-    font-size: 2rem;
-    font-weight: bold;
-    margin-bottom: 2rem;
+  .card-title {
+    color: var(--primary-dark) !important;
+    font-weight: 600 !important;
   }
   
-  .form-group {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 1.5rem;
+  .heading_landing_page_height {
+    min-height: 100vh;
   }
   
-  .form-group label {
-    font-size: 1.25rem;
-    font-weight: bold;
-    margin-bottom: 0.5rem;
-  }
-  
-  .form-control {
-    padding: 0.5rem;
-    font-size: 1.25rem;
-    border: 2px solid #ccc;
-    border-radius: 0.25rem;
-    transition: border-color 0.2s ease-in-out;
-  }
-  
-  .form-control:focus {
-    border-color: #0066cc;
-    outline: none;
-  }
-  
-  .btn-primary {
-    padding: 0.5rem 1rem;
-    font-size: 1.25rem;
-    font-weight: bold;
-    color: #fff;
-    background-color: #0066cc;
-    border: none;
-    border-radius: 0.25rem;
-    cursor: pointer;
-    transition: background-color 0.2s ease-in-out;
-  }
-  
-  .btn-primary:hover {
-    background-color: #0059b3;
-  } */
-  
-  .container {
-    max-width: 750px;
-    background-image: linear-gradient(to bottom, #1f1f1f, #373737);
-  }
-  
-  .card {
-    border: none;
-    border-radius: 5px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-    background-color: #fff;
-    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8));
-  }
-  
-  .form-group {
-    margin-bottom: 1rem;
-  }
-  
-  .form-control {
-    border: none;
-    border-radius: 5px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-  }
-  
-  .form-check-label {
-    font-weight: 400;
+  .login_font_family {
+    font-family: "Comfortaa", cursive;
+    min-width: 35% !important;
   }
 
-  .req:after {
-    content:" *";
-    color: red;
+  .button_signup_form {
+    background-color: var(--tertiary-light) !important;
+}
+
+.button_signup_form:hover {
+    background-color: var(--secondary-dark) !important;
+}
+  
+  @media only screen and (max-width: 600px) {
+    .button_cs {
+      width: 100% !important;
+      font-size: 1rem !important;
+      padding: 10px 5px !important;
+    }
   }
