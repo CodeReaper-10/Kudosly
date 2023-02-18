@@ -28,7 +28,7 @@ export class RewardsService {
       name: 'Vacation Package',
       description: 'Redeemable for a vacation',
       points: 5000,
-      image: this.path + "VacationPackage.jpg",
+      image: this.path + "VacationPackageNew.jpg",
       redeemed: false
     },
     {
@@ -42,7 +42,7 @@ export class RewardsService {
     {
       id: 5,
       name: 'Arcade Pass',
-      description: 'Redeemable for a free arcade pass worth 500 credits',
+      description: 'Redeemable for a free arcade pass',
       points: 540,
       image: this.path + "ArcadePass.jpg",
       redeemed: false
