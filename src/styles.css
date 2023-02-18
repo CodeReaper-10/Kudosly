@@ -1,1 +1,44 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none !important;
+    color: var(--primary-light) !important;
+}
+
+:root {
+    --primary-light: #33ffd5;
+    --primary-dark: #00cca2;
+    --secondary-light: #20466b;
+    --secondary-dark: #11273d;
+    --accent: #d27bee;
+    --accent-dark: #ab57c7;
+}
+
+/* Button styles */
+.button_cs {
+    color: white !important;
+    border: none !important;
+    width: 100% !important;
+    font-size: 1.2rem !important;
+    padding: 10px !important;
+}
+
+.button_login {
+    background-color: var(--accent) !important;
+}
+
+.button_login:hover {
+    background-color: var(--accent-dark) !important;
+}
+
+.button_signup {
+    background-color: var(--secondary-light) !important;
+}
+
+.button_signup:hover {
+    background-color: var(--secondary-dark) !important;
+}

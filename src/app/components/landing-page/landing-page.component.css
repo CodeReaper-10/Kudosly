@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Raleway:wght@300;400;500&display=swap');
+
+  .landing_page_main {
+    background: linear-gradient(to top right, #21466b, #59738f);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+  }
+  
+  .heading_landing_page {
+    font-family: 'Comfortaa', cursive;
+    color: var(--accent);
+    font-size: 4rem;
+  }
+  
+  .heading_landing_page + p {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: var(--primary-dark);
+  }
+  
+  .heading_landing_page_height {
+    min-height: 100vh;
+  }
+  
+  .max_width_landing_page {
+    min-width: 28vw;
+  }
+  
+  .max_width_landing_page > img {
+    max-height: 200px;
+  }
+  
+  /* Media Queries */
+  @media only screen and (max-width: 600px) {
+    .button_cs {
+      width: 100% !important;
+      font-size: 0.8rem !important;
+      padding: 10px 5px !important;
+    }
+  
+    .max_width_landing_page > img {
+      max-height: 100px;
+    }
+  
+    .max_width_landing_page {
+      min-width: 90vw;
+    }
+  
+    .heading_landing_page {
+      font-size: 2rem;
+    }
+  
+    .heading_landing_page + p {
+      font-size: 0.9rem;
+    }
+  }
+  
+  @media only screen and (min-width: 601px) and (max-width: 1024px) {
+    .max_width_landing_page {
+      min-width: 70vw;
+    }
+  }
