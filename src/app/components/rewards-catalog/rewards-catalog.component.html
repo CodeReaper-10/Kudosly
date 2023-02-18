@@ -38,7 +38,10 @@
   </div>
 </nav>
   <div class="container">
-    <h1 class="text-center my-5">Rewards Catalog</h1>
+    <h1 class="text-center my-5" style="font-family: 'Comfortaa', cursive;">Rewards Catalog 
+      <span class="badge bg-secondary badge_balance_pts">{{ totalPoints }} pts</span>
+    </h1>
+      
     <div class="row">
       <div *ngFor="let reward of rewards" class="col-md-4 mb-4">
           <div class="card mb-4 box-shadow align-self-center">
@@ -46,9 +49,10 @@
             <div class="card-body">
               <h5 class="card-title">{{ reward.name }}</h5>
             <p class="card-text">{{ reward.description }}</p>
-            <p class="card-text">{{ reward.points }} points</p>
+            <!-- <p class="card-text">{{ reward.points }} points</p> -->
             <div class="d-flex justify-content-between align-items-center">
-              <button class="btn btn-sm btn-outline-secondary">Redeem</button>
+              <div class="points">{{ reward.points }} pts</div>
+              <button class="btn btn-sm button_cs button_signup" [disabled]="reward.points > totalPoints" (click)="redeem(reward)">Redeem</button>
             </div>
             </div>
           </div>

@@ -12,7 +12,7 @@ export class RewardsService {
       name: 'Gift Card',
       description: 'Redeemable for gift items',
       points: 1000,
-      image: this.path + "GiftCards.png",
+      image: this.path + "GiftCard.jpg",
       redeemed: false
     },
     {
@@ -20,31 +20,31 @@ export class RewardsService {
       name: 'Movie Ticket',
       description: 'Redeemable for a movie ticket',
       points: 500,
-      image: this.path + "GiftCards.png",
+      image: this.path + "MovieTicket.jpg",
       redeemed: false
     },
     {
       id: 3,
       name: 'Vacation Package',
-      description: 'Redeemable for a vacation package',
+      description: 'Redeemable for a vacation',
       points: 5000,
-      image: this.path + "GiftCards.png",
+      image: this.path + "VacationPackage.jpg",
       redeemed: false
     },
     {
       id: 4,
-      name: 'Demo 1',
-      description: 'Redeemable for demo 1',
+      name: 'Food Voucher',
+      description: 'Redeemable for food & beverages',
       points: 520,
-      image: this.path + "GiftCards.png",
+      image: this.path + "Food.jpg",
       redeemed: false
     },
     {
       id: 5,
-      name: 'Demo 2',
-      description: 'Redeemable for demo 2',
+      name: 'Arcade Pass',
+      description: 'Redeemable for a free arcade pass worth 500 credits',
       points: 540,
-      image: this.path + "GiftCards.png",
+      image: this.path + "ArcadePass.jpg",
       redeemed: false
     }
   ];

@@ -5,9 +5,23 @@
 
   .card {
     background-color: #d0f2ff;
-    max-width: 350px;
+    max-width: 300px;
     margin: auto;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: var(--secondary-dark);
+    font-family: "Comfortaa", cursive;
+  }
+
+  /* img {
+    height: 240px;
+    width: 300px;
+    background-position: center;
+    background-size: cover;
+  }  */
+
+  .card-title {
+    font-weight: bold;
+    font-size: 1.3rem;
   }
   
   .row {
@@ -25,11 +39,6 @@
     font-size: 1.2rem;
   }
 
-  img {
-    max-height: 320px;
-    max-width: 240px;
-    margin: auto;
-  }
   
   footer {
     padding: 1rem;
@@ -37,6 +46,23 @@
     color: #fff;
     text-align: center;
   }
+
+  .button_cs {
+    width: 40% !important;
+    font-size: 0.9rem !important;
+  }
+
+  .points {
+    font-weight: bold;
+  }
+
+  .badge_balance_pts {
+    font-size: 1rem;
+    position: absolute;
+    right: 0px;
+    background-color: var(--secondary-light) !important;
+  }
+  
 
   /*main {
     display: flex;
