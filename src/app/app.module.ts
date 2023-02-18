@@ -8,6 +8,7 @@ import { LoginComponent } from './components/login/login.component';
 import { SignupComponent } from './components/signup/signup.component';
 import { RewardsCatalogComponent } from './components/rewards-catalog/rewards-catalog.component';
 import { RewardsTrackingComponent } from './components/rewards-tracking/rewards-tracking.component';
+import { LandingPageComponent } from './components/landing-page/landing-page.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { RewardsTrackingComponent } from './components/rewards-tracking/rewards-
     LoginComponent,
     SignupComponent,
     RewardsCatalogComponent,
-    RewardsTrackingComponent
+    RewardsTrackingComponent,
+    LandingPageComponent
   ],
   imports: [
     BrowserModule,

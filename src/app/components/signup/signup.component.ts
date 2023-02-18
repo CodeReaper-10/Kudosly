@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { NgForm } from '@angular/forms';
+import { User } from 'src/app/models/user';
 
 @Component({
   selector: 'app-signup',
@@ -6,13 +8,19 @@ import { Component } from '@angular/core';
   styleUrls: ['./signup.component.css']
 })
 export class SignupComponent {
-  firstName: string='';
-  lastName: string='';
-  email: string='';
-  password: string='';
-  confirmPassword: string='';
 
-  onSubmit() {
-    //Implement form submission logic here
+  user: User = {
+    firstName: '',
+    lastName: '',
+    email: '',
+    password: '',
+    confirmPassword: ''
+  };
+
+  onSubmit(signupForm: NgForm) {
+    if (this.user.password !== this.user.confirmPassword) {
+      signupForm.controls['confirmPassword'].setErrors({'passwordMismatch': true});
+    }
+    console.log(this.user);
   }
 }

@@ -1,18 +1,60 @@
-<div class="container">
-    <h1>Rewards Catalog</h1>
+<!-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">KUDOSLY</a>
+  <ul class="navbar-nav ml-auto">
+    <li class="nav-item">
+      <a class="nav-link" href="#">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Features</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Pricing</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Contact</a>
+    </li>
+  </ul>
+</nav> -->
+<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="#">KUDOSLY</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/rewards">Rewards</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/rewards-tracking">Rewards Tracking</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  <div class="container">
+    <h1 class="text-center my-5">Rewards Catalog</h1>
     <div class="row">
-      <div *ngFor="let reward of rewards" class="col-md-4">
-        <div class="card mb-4 box-shadow">
-          <div class="card-body">
-            <h5 class="card-title">{{ reward.name }}</h5>
+      <div *ngFor="let reward of rewards" class="col-md-4 mb-4">
+          <div class="card mb-4 box-shadow align-self-center">
+            <img class="card-img-top" src="{{ reward.image }}" alt="image">
+            <div class="card-body">
+              <h5 class="card-title">{{ reward.name }}</h5>
             <p class="card-text">{{ reward.description }}</p>
             <p class="card-text">{{ reward.points }} points</p>
             <div class="d-flex justify-content-between align-items-center">
               <button class="btn btn-sm btn-outline-secondary">Redeem</button>
             </div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
   </div>
-  
+<footer class="text-center text-light bg-dark">
+  <p>&copy; 2023 Kudosly. All rights reserved.</p>
+</footer>
