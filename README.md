@@ -6,21 +6,17 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## Inspiration
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+In today's competitive job market, retaining top talent is more important than ever. One way to do that is through employee recognition and rewards. When employees feel appreciated and valued, they're more likely to be engaged, productive, and loyal to their company. Kudosly makes it easy for managers and peers to recognize outstanding performance and reward employees for their hard work. By using Kudosly, companies can build a positive culture of recognition and retention, which can help them attract and retain the best employees.
 
-## Build
+## What it does
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Kudosly is an innovative employee recognition and rewards platform that allows companies to motivate and retain their top talent. With Kudosly, employees can earn iCoins based on their performance, tenure, or other criteria as per company policy. These iCoins can then be redeemed for a variety of rewards, including gift cards, movie tickets, vacation packages, food vouchers, and arcade passes. Kudosly also features a user-friendly points-tracking system that enables employees to view their point transaction history and keep track of their rewards. Overall, Kudosly helps companies build a culture of recognition and engagement by providing a flexible and customizable rewards program that empowers employees and fosters loyalty.
 
-## Running unit tests
+## Accomplishments that we're proud of
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Kudosly is designed to accommodate various company policies and reward structures, providing companies with the flexibility they need to build a recognition and rewards program that works for them. Its points tracking and reward redemption system is easy to use and provides employees with a hassle-free experience, which encourages adoption and engagement. Finally, Kudosly provides employees with a variety of reward options, including gift cards, movie tickets, vacation packages, food vouchers, and arcade passes, ensuring that there's something for everyone. These are some of the accomplishments that we are proud of!
 
 ## Further help
 
