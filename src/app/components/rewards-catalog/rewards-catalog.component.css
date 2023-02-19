@@ -1,78 +1,79 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@1,700&display=swap');
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+
 .navbar-brand {
   font-family: 'Montserrat Alternates', sans-serif;
 }
 
-  .card {
-    background-color: #d0f2ff;
-    max-width: 300px;
-    margin: auto;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    color: var(--secondary-dark);
-    font-family: "Comfortaa", cursive;
-  }
+footer {
+  padding: 1rem;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+}
 
-  /* img {
-    height: 240px;
-    width: 300px;
-    background-position: center;
-    background-size: cover;
-  }  */
+.rewards_catalog_height {
+  min-height: calc(100vh - 118px) !important;
+}
 
-  .card-title {
-    font-weight: bold;
-    font-size: 1.3rem;
-  }
-  
-  .row {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
-  }
+.card {
+  background-color: #d0f2ff;
+  max-width: 300px;
+  margin: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color: var(--secondary-dark);
+  font-family: "Comfortaa", cursive;
+  border: none;
+}
 
-  .navbar-brand {
-    font-size: 1.5rem;
-  }
+.card-title {
+  font-weight: bold;
+  font-size: 1.3rem;
+}
 
-  .nav-link {
-    font-size: 1.2rem;
-  }
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
 
-  
-  footer {
-    padding: 1rem;
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-  }
+.navbar-brand {
+  font-size: 1.5rem;
+}
 
-  .button_cs {
-    width: 40% !important;
-    font-size: 0.9rem !important;
-  }
+.nav-link {
+  font-size: 1.2rem;
+}
 
-  .points {
-    font-weight: bold;
-  }
+.button_cs {
+  width: 40% !important;
+  font-size: 0.9rem !important;
+}
 
-  .badge_balance_pts {
-    font-size: 1rem;
-    position: absolute;
-    right: 0px;
-    background-color: var(--secondary-light) !important;
-  }
-  
+.points {
+  font-weight: bold;
+}
 
-  /*main {
-    display: flex;
-    flex-wrap: wrap;
+.badge_balance_pts {
+  font-size: 1rem;
+  position: fixed;
+  color: var(--secondary-light) !important;
+  border: 2px solid var(--secondary-light) !important;
+  right: 0px;
+  top: 148px;
+  z-index: 3;
+  background-color: #fff;
+}
+
+/*main {
+  display: flex;
+  flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     padding: 2rem;
   }
-  
+
   .feature {
     flex: 1 1 300px;
     margin: 1rem;
@@ -81,7 +82,7 @@
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
     text-align: center;
   }
-  
+
   button {
     display: inline-block;
     padding: 1rem 2rem;
@@ -94,9 +95,16 @@
     margin-top: 1rem;
     transition: all 0.3s ease;
   }
-  
+
   button:hover {
     background-color: #fff;
     color: #333;
     cursor: pointer;
   } */
+
+  /* img {
+    height: 240px;
+    width: 300px;
+    background-position: center;
+    background-size: cover;
+  }  */
