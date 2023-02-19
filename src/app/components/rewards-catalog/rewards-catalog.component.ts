@@ -19,7 +19,7 @@ export class RewardsCatalogComponent implements OnInit {
     this.rewards = this.rewardsService.getRewards();
   }
 
-  redeem(reward: Reward){
+  redeem(reward: Reward) {
     if (reward.points > this.totalPoints) {
       alert("You don't have enough points to redeem this reward.");
       return;
