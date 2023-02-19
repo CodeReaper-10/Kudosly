@@ -1,16 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@1,700&display=swap');
-@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
-
-.navbar-brand {
-  font-family: 'Montserrat Alternates', sans-serif;
-}
-
-footer {
-  padding: 1rem;
-  background-color: #333;
-  color: #fff;
-  text-align: center;
-}
 
 .rewards_catalog_height {
   min-height: calc(100vh - 118px) !important;
@@ -36,14 +24,6 @@ footer {
   justify-content: center;
   align-items: center;
   margin-top: 20px;
-}
-
-.navbar-brand {
-  font-size: 1.5rem;
-}
-
-.nav-link {
-  font-size: 1.2rem;
 }
 
 .button_cs {

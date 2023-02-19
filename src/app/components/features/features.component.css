@@ -1,0 +1,25 @@
+.features-height {
+  min-height: calc(100vh - 118px) !important;
+  max-width: 70%;
+  margin: auto;
+  font-weight: 600 !important;
+}
+
+.features_heading {
+  color: var(--primary-light);
+  font-size: 3rem;
+}
+
+.features-desc {
+  font-family: 'Raleway', sans-serif;
+  color: #fff;
+  font-size: 1.3rem;
+  font-weight: 400;
+  text-align: justify;
+}
+
+@media only screen and (max-width: 1024px) {
+  .features_heading {
+    margin-top: 50px;
+  }
+}

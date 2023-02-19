@@ -10,12 +10,12 @@ import { Reward } from 'src/app/models/reward';
 export class PointsTrackerComponent implements OnInit {
   rewards: Reward[] = [];
   redeemedRewards: Reward[] = [];
-  
-  constructor(public dataService: DataService) { 
+
+  constructor(public dataService: DataService) {
     this.redeemedRewards = [
-      { id: 1, name: 'Azure Certfication', description: 'Wohoo! You have received 500 iCoins for completing your Azure Certification.', points: 500, image: '', redeemed: false },
-      { id: 2, name: 'AWS Certification', description: 'Wohoo! You have received 200 iCoins for completing your AWS Certification.', points: 200, image: '', redeemed: false },
-      { id: 3, name: 'GCP Certification', description: 'Wohoo! You have received 800 iCoins for completing your GCP Certification.', points: 800, image: '', redeemed: false }
+      { id: 1, name: 'Azure Certification', description: 'Wohoo! You have received 1000 iCoins for completing your Azure Certification.', points: 1000, image: '', redeemed: false },
+      { id: 2, name: 'AWS Certification', description: 'Wohoo! You have received 1800 iCoins for completing your AWS Certification.', points: 1800, image: '', redeemed: false },
+      { id: 3, name: 'GCP Certification', description: 'Wohoo! You have received 1200 iCoins for completing your GCP Certification.', points: 1200, image: '', redeemed: false }
     ];
   }
 

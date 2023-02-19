@@ -18,7 +18,7 @@ import { PointsTrackerComponent } from './components/points-tracker/points-track
     SignupComponent,
     RewardsCatalogComponent,
     LandingPageComponent,
-    PointsTrackerComponent
+    PointsTrackerComponent,
   ],
   imports: [
     BrowserModule,
