@@ -1,34 +1,34 @@
-<div class="container">
-    <h1>Rewards Tracking</h1>
-    <div class="row">
-      <div class="col-md-6">
-        <div class="card mb-4 box-shadow">
-          <div class="card-body">
-            <h5 class="card-title">Your Points</h5>
-            <p class="card-text">{{ totalPoints }}</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-12">
-        <table class="table">
-          <thead>
-            <tr>
-              <th>Reward</th>
-              <th>Description</th>
-              <th>Points</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr *ngFor="let reward of rewards">
-              <td>{{ reward.name }}</td>
-              <td>{{ reward.description }}</td>
-              <td>{{ reward.points }}</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-  </div>
+   <table>
+    <thead>
+    </thead>
+    <tbody>
+      <ng-container *ngIf="(dataService.getRedeemedRewards() | async) as redeemedRewardsList">
+        <tr *ngFor="let reward of redeemedRewardsList; trackBy: trackByIdx">
+          <td>Congrats you have redeemed a {{ reward.name }} of {{ reward.points }} iCoins</td>
+        </tr>
+      </ng-container>
+      <tr *ngFor="let reward of redeemedRewards; trackBy: trackByIdx">
+        <!-- <ng-container *ngIf="!redeemedRewards.length">
+          <td>{{reward.description}}</td>
+        </ng-container> -->
+        <ng-container *ngIf="redeemedRewards.length">
+          <!-- <td>Congrats you have redeemed a {{ reward.name }} of {{ reward.points }} iCoins</td> -->
+          <td>{{ reward.description }}</td>
+        </ng-container>
+      </tr>
+    </tbody>
+  </table> 
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   
