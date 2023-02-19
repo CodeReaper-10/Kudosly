@@ -21,3 +21,13 @@ Kudosly is designed to accommodate various company policies and reward structure
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Contributors
+
+-   [Adipta Santra](https://github.com/CodeReaper-10)
+-   [Subhadip Das](https://github.com/SubhadipDas08)
+-   [Soham Ghosal](https://github.com/sohamGhost)
+
+## Built with
+
+   <a href="https://angular.io" target="_blank" rel="noreferrer"> <img src="https://angular.io/assets/images/logos/angular/angular.svg" alt="angular" width="40" height="40"/> </a>
