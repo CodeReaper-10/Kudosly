@@ -10,6 +10,8 @@ import { SignupComponent } from './components/signup/signup.component';
 import { RewardsCatalogComponent } from './components/rewards-catalog/rewards-catalog.component';
 import { LandingPageComponent } from './components/landing-page/landing-page.component';
 import { PointsTrackerComponent } from './components/points-tracker/points-tracker.component';
+import { FeaturesComponent } from './components/features/features.component';
+import { ContactUsComponent } from './components/contact-us/contact-us.component';
 
 @NgModule({
   declarations: [
@@ -19,13 +21,14 @@ import { PointsTrackerComponent } from './components/points-tracker/points-track
     RewardsCatalogComponent,
     LandingPageComponent,
     PointsTrackerComponent,
+    FeaturesComponent,
+    ContactUsComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
     ReactiveFormsModule,
-    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
