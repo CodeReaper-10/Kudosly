@@ -12,6 +12,8 @@ import { LandingPageComponent } from './components/landing-page/landing-page.com
 import { PointsTrackerComponent } from './components/points-tracker/points-tracker.component';
 import { FeaturesComponent } from './components/features/features.component';
 import { ContactUsComponent } from './components/contact-us/contact-us.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { ContactUsComponent } from './components/contact-us/contact-us.component
     LandingPageComponent,
     PointsTrackerComponent,
     FeaturesComponent,
-    ContactUsComponent
+    ContactUsComponent,
+    NavbarComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
